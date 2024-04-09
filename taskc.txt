@@ -1,0 +1,46 @@
+1)five friends name (new line)
+
+2)five country name 
+
+3)five state name (new line)
+
+4)five fav food name 
+
+5)five sports name (new line)
+
+
+#include <stdio.h>
+int main(){
+  ans-1  printf("vipul \n");
+    printf("vaibhav\n");
+    printf("vineet \n");
+    printf("tushar \n");
+    printf("krishan \n");
+    
+  ans-2  printf("russia");
+    printf("pak");
+    printf("china");
+    printf("nepal");
+    printf("india");
+    
+   ans-3 printf("rajasthan \n");
+    printf("delhi \n");
+     printf("punjab \n");
+      printf("up \n");
+       printf("mumbai \n");
+       
+    ans-4 printf("dhaibhala ");
+    printf("chowmin ");
+     printf("momos ");
+      printf("pasta ");
+       printf("dbc ");
+       
+    ans-5 printf("cricket \n");
+    printf("football \n");
+     printf("kabddi \n");
+      printf("kho kho \n");
+       printf("gilli- danda  \n");
+       
+    
+    return 0;
+}
