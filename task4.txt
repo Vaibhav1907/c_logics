@@ -1,0 +1,320 @@
+1)input number check number >10 
+ans:1 // #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     printf("enter the number");
+//     scanf("%d",&a);
+//     if (a>10){
+//         printf("a is greater than 10");
+//     }
+//     return 0;
+    
+2)input number check number >67
+ans:2 // #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     printf("enter the number");
+//     scanf("%d",&a);
+//     if (a>67){
+//         printf("a is greater than 67");
+//     }
+//     return 0;
+
+3)input number check number >100
+
+ans:3// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     printf("enter the number");
+//     scanf("%d",&a);
+//     if (a>100){
+//         printf("a is greater than 100");
+//     }
+//     return 0;
+    
+    
+// }
+4)input a number to check a number is even or odd
+ans:4// #include <stdio.h>
+
+// int main()
+// {
+//   int a;
+//   printf("enter the number");
+//   scanf("%d",&a);
+//   if(a%2==0){
+//       printf("even number");
+//   }
+//   else{
+//       printf("odd number");
+//   }
+//     return 0;
+// }
+
+5)input a number to check a number is divisble by 5 or not 
+ans:5 // #include <stdio.h>
+
+// int main()
+// {
+//   int a;
+//   printf("enter the number");
+//   scanf("%d",&a);
+//   if(a%5==0){
+//       printf("a is divisible by 5");
+//   }
+//   else{
+//       printf("a is not divisible by 5");
+//   }
+//     return 0;
+// }
+
+6)input a number to check a number is divisble by 73 or not 
+ans:6 // #include <stdio.h>
+
+// int main()
+// {
+//   int a;
+//   printf("enter the number");
+//   scanf("%d",&a);
+//   if(a%73==0){
+//       printf("a is divisible by 73");
+//   }
+//   else{
+//       printf("a is not divisible by 73");
+//   }
+//     return 0;
+// }
+
+7)input a character a :apple otherwise input mismatch 
+ans:7 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='a'){
+//         printf("apple");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+8)input a character b :ball otherwise input mismatch 
+ans:8// #include<stdio.h>
+// int main(){
+//     char b;
+//     printf("enter the character");
+//     scanf("%c",&b);
+//     if(b=='b'){
+//         printf("boy");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+9)input a character c :cat otherwise input mismatch 
+ans:9 / #include<stdio.h>
+// int main(){
+//     char c;
+//     printf("enter the character");
+//     scanf("%c",&c);
+//     if(c=='c'){
+//         printf("cat");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+10)input a number 1 :one otherwise input mismatch
+ans:10 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='1'){
+//         printf("one");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+11)input a number 78 :seventy eight otherwise input mismatch
+ans:11 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='78'){
+//         printf("seventy eight");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+12)input character a: addition otherwise input mismatch
+ans:12 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='a'){
+//         printf("add");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+13)input character s: sub otherwise input mismatch
+ans:13 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='s'){
+//         printf("sub");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+14)input character d: div otherwise input mismatch
+ans:14 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='d'){
+//         printf("division");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+15)input character m: multiplication otherwise input mismatch
+ans:15// #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='m'){
+//         printf("multiplication");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+16)input character o: modular otherwise input mismatch
+ans:16 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='o'){
+//         printf("modular");
+//     }
+    
+//     else{
+//         printf("mismatch");
+//     }
+// }
+
+17)input character s: swap number without third varaible  otherwise input mismatch
+ans:17 // #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     printf("enter the caharacter");
+//     scanf("%c",&a);
+//     if(a=='s'){
+//         int a=10;
+//     int b=20;
+//     printf("the real value of a is :%d\n",a);
+//     printf("the real value of b is :%d\n",b);
+//     a=a+b;
+//     b=a-b;
+//     a=a-b;
+//     printf("the swap value of a is :%d\n",a);
+//     printf("the swap value of b is :%d\n",b);
+
+   
+   
+   
+//     }
+//      return 0;
+    
+
+    
+// }
+
+18)input character w: swap number with third varaible  otherwise input mismatch
+ans:18 // #include<stdio.h>
+// int main(){
+//      char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if (a=='w'){
+//     int a=10;
+//     int b=20;
+//     int c;
+//     printf("the real value of a is :%d\n",a);
+//     printf("the real value of b is :%d\n",b);
+//     c=a;
+//     a=b;
+//     b=c;
+//     printf("the swap value of a is :%d\n",a);
+//     printf("the swap value of b is :%d\n",b);
+
+         
+//      }
+// }
+19)input two from user a and b check which one is maximum 
+ans:19  #include <stdio.h>
+
+// int main() {
+//     float a, b;
+
+//     printf("Enter the first number: ");
+//     scanf("%f", &a);
+
+//     printf("Enter the second number: ");
+//     scanf("%f", &b);
+
+//     if (a > b) {
+//         printf("The maximum number is: % f\n", a);
+//     } else if (b > a) {
+//         printf("The maximum number is: % f\n", b);
+//     } else {
+//         printf("The two numbers are equal.\n");
+//     }
+
+//     return 0;
+// }
+
+
+
+
+
+
+
+
+

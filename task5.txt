@@ -1,0 +1,493 @@
+1 :sun
+2 :mon
+3 :tu
+ans:1 // #include<stdio.h>
+// int main()
+// {
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if (a=='0'){
+//         printf("sunday");
+//     }
+//     else if(a=='1'){
+//         printf("monday");
+        
+//     }
+//     else if(a=='2'){
+//         printf("tuesday");
+//     }
+//     else if(a=='3'){
+//         printf("wednesday");
+        
+//     }
+//     else if(a=='4'){
+//         printf("thrusday");
+        
+//     }
+//     else if(a=='5'){
+//         printf("friday");
+//     }
+//     else if(a=='6'){
+//         printf("saturday");
+//     }
+    
+//     else{
+//         printf("mismatch");
+        
+//     }
+// }
+ q-2 month :jan,feb 
+ans:2 // #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("enter the character");
+//     scanf("%d",&a);
+//     if(a==1){
+//         printf("january");
+//     }
+//   else if(a==2){
+//         printf("feb");
+//     }
+//   else if(a==3){
+//         printf("marc");
+//     }
+//   else if(a==4){
+//         printf("april");
+//     }
+//     else if(a==5){
+//         printf("may");
+//     }
+//     else if(a==6){
+//         printf("june");
+//     }
+    
+//     else if(a==7){
+//         printf("july");
+        
+//     }
+    
+//     else if(a==8){
+//         printf("august");
+        
+//     }
+//     else if(a==9){
+//           printf("sept");
+        
+//     }
+    
+//     else if( a==10){
+//         printf("oct");
+        
+//     }
+    
+//     else if(a==11){
+//         printf("nov");
+//     }
+    
+//     else if( a==12){
+//         printf("dec");
+//     }
+//     else{
+//         printf("mismatch");
+//     }
+    
+    
+// }
+Q:3a :apple 
+b :ball 
+c :cat 
+input mismatch 
+ans:3 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='a'){
+//         printf("apple");
+//     }
+//     else if(a=='b'){
+//         printf("ball");
+//     }
+//     else if( a=='c'){
+//         printf("cat");
+//     }
+//     else{
+//         printf("mismatch");
+//     }
+// }
+q:4a :vowel 
+e :vowel
+i :vowel
+o :vowel
+u :vowel
+consonat 
+ans:4 // #include<stdio.h>
+// int main(){
+//      char a;
+//      printf("enter the character");
+//      scanf("%c",&a);
+//     if(a=='a'){
+//         printf("vowel");
+//     }
+//   else  if(a=='e'){
+//         printf("vowel");
+//     }
+//      else  if(a=='i'){
+//         printf("vowel");
+//     }
+//      else  if(a=='o'){
+//         printf("vowel");
+//     }
+//      else  if(a=='u'){
+//         printf("vowel");
+//     }
+//     else{
+//         printf("consonent");
+//     }
+//     return 0;
+
+// }
+
+q:5  a :addition
+m :multiplication
+s :substraction
+d :divide
+o :modular 
+input mismatch 
+
+ans:5 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the char ");
+//     scanf("%c",&a);
+//     if(a=='a'){
+//         printf("add");
+//     }
+//     else if(a=='s'){
+//         printf("substract");
+//     }
+//     else if(a=='m'){
+//         printf("multiply");
+//     }
+//     else if (a=='d'){
+//     printf("divide");
+//     }
+    
+//     else if(a=='o'){
+//         printf("modulus");
+//     }
+//     else{
+//         printf("mismatrch");
+//     }
+// }
+q:6 s :swap without third variable 
+w ::swap with third variable 
+input mismatch 
+ans:6 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='s'){
+//       int a=10;
+//       int b=20;
+//       printf("real value of a is:%d\n",a);
+//       printf("real value of b is %d\n",b);
+//       a=a+b;
+//       b=a-b;
+//       a=a-b;
+//       printf("swap value of a is:%d\n",a);
+//       printf("swap value of b is%d\n",a);
+       
+      
+//     }
+//     else if(a=='w'){
+//         int a=10;
+//         int b=20;
+//         int c;
+//         printf("the real value of a is:%d\n",a);
+//         printf("the real value of b is:%d\n",b);
+//         c=a;
+//         a=b;
+//         b=c;
+//         printf("the swap value of a is:%d\n",a);
+//         printf("the swap value of b is:%d\n",b);
+//         return 0;
+        
+//     }
+//     else{
+//         printf("mismatrch");
+        
+//     }
+    
+    
+//     return 0;
+// }
+q:7 q w e r t y u i o p :upper line 
+
+a s d f g h j k l :mid line 
+
+z x c v b n m :low line 
+input mismatch 
+ans:7 // #include<stdio.h>
+// int main(){
+//     char a;
+//     printf("enter the character");
+//     scanf("%c",&a);
+//     if(a=='q'|| a=='w'||a=='e'|| a=='r'||a=='t'||a=='y'||a=='u'||a=='i'||a=='o'||a=='p'){
+//         printf("upper line");
+//     }
+//     else if(a=='a'||a=='s'||a=='d'||a=='f'||a=='g'||a=='h'||a=='j'||a=='k'||a=='l'){
+//         printf("mid line");
+//     }
+//      else if(a=='z'||a=='x'||a=='c'||a=='v'||a=='b'||a=='n'||a=='m'){
+//         printf("lower line");
+//     }
+//     else{
+//         printf("input mismatch");
+//     }
+// }
+
+2 and 3 both divide 
+4 and 5 both divide
+8 and 9 anyone divide  
+9  and 11 both divide
+23 and 67 anyone divide
+ans:8 //  #include <stdio.h>
+
+// int main()
+// {
+//     int a;
+//     printf("enter the number\n");
+//     scanf("%d",&a);
+//     if(a%2==0 && a%3==0){
+//         printf("divisble 2 and 3");
+//     }
+//     else if(a%4==0 && a%5==0){
+//         printf("divisble 5 and 10");
+//     }
+//     else if(a%8==0 && a%9==0){
+//         printf("divisble 8 and 9");
+//     }
+//     else if(a%9==0 && a%11==0){
+//         printf("divisble 9 and 11");
+//     }
+//     else if(a%23==0 && a%67==0){
+//         printf("divisble 23 and 67");
+//     }
+//     else{
+//         printf("not divisble");
+//     }
+// return 0;
+// }
+two number maximum :
+a>b :a is max
+b>a :b is max
+equal 
+
+//   #include <stdio.h>
+
+// int main() {
+//     int a, b;
+
+//     printf("Enter the first number: ");
+//     scanf("%d", &a);
+
+//     printf("Enter the second number: ");
+//     scanf("%d", &b);
+
+//     if (a > b) {
+//         printf("The maximum number is: % d\n", a);
+//     } else if (b > a) {
+//         printf("The maximum number is: % d\n", b);
+//     } else {
+//         printf("The two numbers are equal.\n");
+//     }
+
+//     return 0;
+// }
+C program to enter student marks and find percentage and grade
+A college has the following rules for the grading system:
+5 marks (grade + %)
+1. Below 25 – F
+2. 25 to 45 – E
+3. 45 to 50 – D
+4. 50 to 60 – C
+5. 60 to 80 – B 
+6. Above 80 – A
+
+
+
+
+
+Write a c program to accept the height of a person in centimeters and categorize the person according to their height.
+->meter ===>cm 
+mid 
+low 
+high 
+
+// #include <stdio.h>
+
+// int main() {
+//     float heightInCentimeters;
+
+//     printf("Enter the height of the person in centimeters: ");
+//     scanf("%f", &heightInCentimeters);
+
+
+//     float heightInMeters = heightInCentimeters / 100;
+
+//     if (heightInMeters < 1.5) {
+//         printf("Person is categorized as 'Low' height.\n");
+//     } else if (heightInMeters >= 1.5 && heightInMeters < 1.8) {
+//         printf("Person is categorized as 'Mid' height.\n");
+//     } else {
+//         printf("Person is categorized as 'High' height.\n");
+//     }
+
+//     return 0;
+// }
+
+Write a c program to read the roll no, name,fnname and marks of three subjects and calculate the total, percentage and division.
+Test Data :
+Input the Roll Number of the student :784
+student name : 
+fname:
+mname:
+address:
+contact:
+Input the marks of Physics, Chemistry and Computer Application : 70 80 90
+total: 
+precentage : % 
+division:
+
+
+// #include <stdio.h>
+
+// int main() {
+//     int rollNumber, physicsMarks, chemistryMarks, computerMarks;
+//     char studentName[50], fatherName[50];
+
+//     printf("Input the Roll Number of the student: ");
+//     scanf("%d", &rollNumber);
+
+//     printf("Input the student name: ");
+//     scanf(" %[^\n]s", studentName);
+
+//     printf("Input the father's name: ");
+//     scanf(" %[^\n]s", fatherName);
+
+//     printf("Input the marks of Physics, Chemistry, and Computer Application: ");
+//     scanf("%d %d %d", &physicsMarks, &chemistryMarks, &computerMarks);
+
+//     int totalMarks = physicsMarks + chemistryMarks + computerMarks;
+//     float percentage = (float)totalMarks / 3;
+
+//     printf("\nTotal Marks: %d\n", totalMarks);
+//     printf("Percentage: %.f\n", percentage);
+
+//     if (percentage >= 60) {
+//         printf("Division: First\n");
+//     } else if (percentage >= 45) {
+//         printf("Division: Second\n");
+//     } else if (percentage >= 33) {
+//         printf("Division: Third\n");
+//     } else {
+//         printf("Division: Fail\n");
+//     }
+
+//     return 0;
+// }
+
+three number maximum 
+
+// #include <stdio.h>
+// int main()
+// {
+//     int a,b,c;
+//     printf("enter the value of a and b and c");
+//     scanf("%d %d %d",&a,&b,&c);
+//     if(a>b && a>c){
+//         printf("a is max");
+//     }
+//     else if(b>a && b>c){
+//         printf("b is max");
+//     }
+//     else{
+//         printf("c is max");
+//     }
+//     return 0;
+// }
+
+five number max
+#include <stdio.h>
+// int main()
+// {
+//     int a,b,c,d,e;
+//     printf("enter the value of a,b,c,d and e");
+//     scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+//     if(a>b && a>c&&a>d &&a>e){
+//         printf("a is max");
+//     }
+//     else if(b>a && b>c && b>d && b>e){
+//         printf("b is max");
+//     }
+//       else if(c>a && c>b && c>d ){
+//         printf("c is max");
+//       }
+//         else if(d>a && d>b && b>c && b>e){
+//         printf("d is max");
+//     }
+
+
+
+//     else{
+//         printf("e is max");
+//     }
+//     return 0;
+// }
+
+ten number maximium 
+//   #include <stdio.h>
+// int main()
+// {
+//     int a,b,c,d,e,f,g,h,i,j;
+//     printf("enter the value of a,b,c,d,e,f,g,h,i,j");
+//     scanf("%d %d %d %d %d %d %d %d %d %d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);
+//     if(a>b && a>c && a>d && a>e && a>f && a>g && a>h && a>i && a>j){
+//         printf("a is max");
+//     }
+//     else if(b>a && b>c && b>d && b>e && b>f && b>g && b>h && b>i && b>j){
+//         printf("b is max");
+//     }
+//       else if(c>a && c>b && c>d && c>e && c>f && c>g && c>h && c>i && c>j){
+//         printf("c is max");
+//       }
+//         else if(d>a && d>b && d>c && d>e && d>f && d>g && d>h && d>i && d>j){
+//         printf("d is max");
+//     }
+//         else if(e>a && e>b && e>c && e>d  && e>f && e>g && e>h && e>i && e>j){
+//         printf("b is max");
+//      }
+//         else if(f>a && f>b && f>c && f>d && f>e && f>g && f>h && f>i && f>j){
+//         printf("b is max");
+//       }
+//          else if(g>a && g>b && g>c && g>d && g>e && g>f&& g>h && g>i && g>j){
+//          printf("b is max");
+//       }
+//       else if(h>a && h>b && h>c && h>d && h>e && h>f && h>g && h>i && h>j){
+//         printf("b is max");
+//       }
+//          else if(i>a && i>b && i>c && i>d && i>e && i>f && i>g && i>h && i>j){
+//           printf("b is max");
+//       }
+       
+
+//     else{
+//         printf("j is max");
+//     }
+//     return 0;
+// }
+
+

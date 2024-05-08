@@ -1,0 +1,343 @@
+1-->5 number print
+ 
+
+---------------------------------
+1-->10 number print 
+
+
+---------------------------------
+1-->100 number print
+ 
+---------------------------------
+50-->100 number print 
+
+---------------------------------
+34-->89 number print 
+---------------------------------
+5--->1dry run +laptop
+
+---------------------------------
+10-->1 number print 
+dry run +laptop
+
+---------------------------------
+100-->1 number print
+ 
+---------------------------------
+100-->50 number print 
+
+---------------------------------
+89-->34 number print 
+---------------------------------
+1--->100 even number 
+
+-------------------------
+100-->1 even number
+
+-------------------------
+1--->100 odd number 
+
+-------------------------
+100-->1 odd number
+---------------------------------------------
+23--->89 even number 
+
+----------------------
+--------------------------------------------------------------
+p :
+	f :1--->100 number 
+	b:100---->1 number 
+
+w :
+	f:34--->78 number
+	b:78-->34 number 
+
+e :
+	f:20--->50 even number 
+	b:98-->23 even number
+
+o :
+	f:20--->50 odd number 
+	b:98-->23 odd number
+
+ans:1// #include <stdio.h>
+
+// int main()
+// {
+//   int a=1;
+//   while(a<=5){
+//       printf("%d",a);
+//       a++;
+//   }
+
+//     return 0;
+// }
+
+ans:2// #include <stdio.h>
+
+// int main()
+// {
+//   int a=5;
+//   while(a>=1){
+//       printf("%d",a);
+//       a--;
+//   }
+
+//     return 0;
+// }
+ans:3// #include <stdio.h>
+
+// int main()
+// {
+//   int a=1;
+//   while(a<=100){
+//       printf("%d",a);
+//       a++;
+//   }
+
+//     return 0;
+// }
+
+ANS:4// #include <stdio.h>
+
+// int main()
+// {
+//   int a=50;
+//   while(a<=100){
+//       printf("%d",a);
+//       a++;
+//   }
+
+//     return 0;
+// }
+ans:5// #include <stdio.h>
+
+// int main()
+// {
+//   int a=34;
+//   while(a<=89){
+//       printf("%d",a);
+//       a++;
+//   }
+
+//     return 0;
+// }
+
+ans:6// #include <stdio.h>
+
+// int main()
+// {
+//   int a=5;
+//   while(a>=1){
+//       printf("%d",a);
+//       a--;
+//   }
+
+//     return 0;
+// }
+
+ans:7// #include <stdio.h>
+
+// int main()
+// {
+//   int a=10;
+//   while(a>=1){
+//       printf("%d",a);
+//       a--;
+//   }
+
+//     return 0;
+// }
+
+
+ans:8// #include <stdio.h>
+
+// int main()
+// {
+//   int a=100;
+//   while(a>=1){
+//       printf("%d",a);
+//       a--;
+//   }
+
+//     return 0;
+// }
+
+ans:9// #include <stdio.h>
+
+// int main()
+// {
+//   int a=100;
+//   while(a>=50){
+//       printf("%d",a);
+//       a--;
+//   }
+
+//     return 0;
+// }
+
+ans:10// #include <stdio.h>
+
+// int main()
+// {
+//   int a=89;
+//   while(a>=34){
+//       printf("%d",a);
+//       a--;
+//   }
+
+//     return 0;
+// }
+
+ans:11// #include <stdio.h>
+
+// int main()
+// {
+//   int a=1;
+//   while(a<=100){
+//       if(a%2==0){
+//           printf("%d ",a);
+//       }
+//       a++;
+//   }
+//     return 0;
+// }
+
+ans:12// #include <stdio.h>
+
+// int main()
+// {
+//   int a=100;
+//   while(a>=1){
+//       if(a%2==0){
+//           printf("%d ",a);
+//       }
+//       a--;
+//   }
+//     return 0;
+// }
+
+ans:13// #include <stdio.h>
+
+// int main()
+// {
+//   int a=1;
+//   while(a<=100){
+//       if(a%2!=0){
+//           printf("%d ",a);
+//       }
+//       a++;
+//   }
+//     return 0;
+// }
+
+ans:14// #include <stdio.h>
+
+// int main()
+// {
+//   int a=100;
+//   while(a>=1){
+//       if(a%2!=0){
+//           printf("%d ",a);
+//       }
+//       a--;
+//   }
+//     return 0;
+// }
+
+ans:15// #include <stdio.h>
+
+// int main()
+// {
+//   int a=23;
+//   while(a<=89){
+//       if(a%2==0){
+//           printf("%d ",a);
+//       }
+//       a++;
+//   }
+//     return 0;
+// }
+
+ans:16// #include <stdio.h>
+
+// int main()
+// {
+//   char a;
+//   printf("Enter the character: ");
+//   scanf("%c", &a);
+   
+//   if(a == 'a') {
+//       char b;
+//       printf("Enter the character: ");
+//       scanf(" %c", &b);
+      
+//       if(b == 'f') {
+//          int num = 1;
+//          while(num <= 100) {
+//             printf("%d ", num);
+//             num++;
+//          }
+//       } else if(b == 'b') {
+//          int num = 100;
+//          while(num >= 1) {
+//             printf("%d ", num);
+//             num--;
+//          } 
+//       } else {
+//          printf("Input mismatch");
+//       }
+//   } 
+//   else if(a == 'w') {
+//       char b;
+//       printf("Enter the character: ");
+//       scanf(" %c", &b);
+      
+//       if(b == 'f') {
+//          int num = 34;
+//          while(num <= 78) {
+//             printf("%d ", num);
+//             num++;
+//          }
+//       } else if(b == 'b') {
+//          int num = 78;
+//          while(num >= 34) {
+//             printf("%d ", num);
+//             num--;
+//          } 
+//       } else {
+//          printf("Input mismatch");
+//       }
+//   } 
+//   else if(a == 'e') {
+//       char b;
+//       printf("Enter the character: ");
+//       scanf(" %c", &b);
+      
+//       if(b == 'f') {
+//          int num = 20;
+//          while(num <= 50) {
+//             if(num % 2 == 0) {
+//               printf("%d ", num);
+//             }
+//             num++;
+//          }
+//       } else if(b == 'b') {
+//          int num = 98;
+//          while(num >= 23) {
+//             if(num % 2 == 0) {
+//               printf("%d ", num);
+//             }
+//             num--;
+//          }
+//       } else {
+//          printf("Input mismatch");
+//       }
+//   } 
+//   else {
+//       printf("Input mismatch");
+//   }
+   
+//   return 0;
+// }
+
